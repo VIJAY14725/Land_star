@@ -10011,3 +10011,26 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.investment-services .investment-service-column {
+  display: flex; }
+
+.investment-services .product {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 0; }
+
+.investment-services .img-prod img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover; }
+
+.investment-services .product .text {
+  flex: 1; }
+
+.investment-services .product .text h3 {
+  min-height: 2.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
