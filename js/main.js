@@ -72,7 +72,7 @@
 	    nav:false,
 	    autoplayHoverPause: false,
 	    items: 1,
-	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
+	    navText : ["<svg class='ui-icon' viewBox='0 0 24 24' aria-hidden='true'><path d='m14 6-6 6 6 6'/></svg>","<svg class='ui-icon' viewBox='0 0 24 24' aria-hidden='true'><path d='m10 6 6 6-6 6'/></svg>"],
 	    responsive:{
 	      0:{
 	        items:1
@@ -93,7 +93,7 @@
 			margin: 30,
 			stagePadding: 0,
 			nav: false,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+			navText: ["<svg class='ui-icon' viewBox='0 0 24 24' aria-hidden='true'><path d='m14 6-6 6 6 6'/></svg>", "<svg class='ui-icon' viewBox='0 0 24 24' aria-hidden='true'><path d='m10 6 6 6-6 6'/></svg>"],
 			responsive:{
 				0:{
 					items: 1
@@ -343,4 +343,3 @@ setInterval(function() { makeTimer(); }, 1000);
 
 
 })(jQuery);
-
