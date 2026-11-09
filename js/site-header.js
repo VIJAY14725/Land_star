@@ -6,7 +6,7 @@
   }
 
   var currentPage = window.location.pathname.split("/").pop().toLowerCase() || "index.html";
-  var propertiesPages = ["sale.html", "sale-2025-09-05.html", "lease.html", "close.html"];
+  var propertiesPages = ["sale.html", "sale-2025-09-05.html", "lease.html", "close.html", "property-1401-county-road-440.html"];
   var activePage = currentPage === "aboutus-25.html" ? "about.html" : currentPage;
   var homeActive = activePage === "index.html";
   var aboutActive = activePage === "about.html";
