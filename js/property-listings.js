@@ -2,7 +2,7 @@
   var properties = {
     niederwald: {
       name: "6890 Niederwald Strasse",
-      cardTitle: "6890 Niederwald Strasse | 11± Acres",
+      cardTitle: "Niederwald Strasse TX 78640",
       address: "6890 Niederwald Strasse, Niederwald, TX 78640",
       subtitle: "FM 2001 frontage · Commercial and industrial land",
       type: "Land",
@@ -38,11 +38,21 @@
         alt: "Commercial land at 6890 Niederwald Strasse, Niederwald, Texas"
       }],
       photoNote: "Image from the Crexi property listing.",
-      source: "https://www.crexi.com/properties/2670958/texas-6890-niederwald-strasse-niederwald-tx-78640"
+      listingLinks: [],
+      brochure: {
+        href: "pdfs/6890-Niederwald-Strasse-Marketing-Flyer.pdf",
+        title: "Marketing brochure",
+        description: "6890 Niederwald Strasse marketing flyer (PDF)"
+      },
+      source: "https://www.crexi.com/properties/2670958/texas-6890-niederwald-strasse-niederwald-tx-78640",
+      map: {
+        url: "https://www.google.com/maps/place/6890+Niederwald+Strasse,+Niederwald,+TX+78640,+USA/@30.0277061,-97.7536438,413m/data=!3m1!1e3!4m6!3m5!1s0x8644ac9c9d0971f7:0x3a51a14369730445!8m2!3d30.028357!4d-97.7544159!16s%2Fg%2F11td12f916?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "30.028357, -97.7544159"
+      }
     },
     georgetown: {
       name: "600 CR 242",
-      cardTitle: "600 CR 242 | Georgetown",
+      cardTitle: "Georgetown TX 78633",
       address: "600 CR 242, Georgetown, TX 78633",
       subtitle: "Georgetown, Texas · Property materials available",
       type: "Land",
@@ -75,16 +85,21 @@
         alt: "Aerial property image for 600 CR 242 in Georgetown, Texas"
       }],
       photoNote: "LAND-STAR property image.",
+      listingLinks: [],
       brochure: {
         href: "pdfs/600-CR-242-GEORGETOWN-TX-78633.pdf",
         title: "Marketing brochure",
         description: "600 CR 242 Georgetown property PDF"
       },
-      source: "https://www.crexi.com/properties/1994015/texas-600-cr-242-georgetown-texas-78633"
+      source: "https://www.crexi.com/properties/1994015/texas-600-cr-242-georgetown-texas-78633",
+      map: {
+        url: "https://www.google.com/maps/place/600+Co+Rd+242,+Georgetown,+TX+78633,+USA/@30.7892445,-97.8163093,1639m/data=!3m1!1e3!4m6!3m5!1s0x865ad30138110ff1:0xecadb42c79cd9096!8m2!3d30.792342!4d-97.824612!16s%2Fg%2F11ggsbc6m0?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "30.792342, -97.824612"
+      }
     },
     "cedar-creek": {
       name: "TBD 732 High Grove Road",
-      cardTitle: "732 High Grove Road | 291.281± Acres",
+      cardTitle: "High Grove Rd, Cedar Creek | 291.281Ac",
       address: "TBD 732 High Grove Road, Cedar Creek, TX 78612",
       subtitle: "Residential development potential · Near Austin and Bastrop",
       type: "Land",
@@ -119,16 +134,21 @@
         alt: "Property image for the High Grove Road land listing in Cedar Creek, Texas"
       }],
       photoNote: "LAND-STAR property image.",
+      listingLinks: [],
       brochure: {
         href: "pdfs/TBD-732-High-Grove-Road-Cedar-Creek.pdf",
         title: "Marketing brochure",
         description: "732 High Grove Road Cedar Creek property PDF"
       },
-      source: "https://www.crexi.com/properties/1518007/texas-tbd-732-high-grove-rd-cedar-creek-tx-78612"
+      source: "https://www.crexi.com/properties/1518007/texas-tbd-732-high-grove-rd-cedar-creek-tx-78612",
+      map: {
+        url: "https://www.google.com/maps/place/732+High+Grove+Rd,+Cedar+Creek,+TX+78612,+USA/@30.0045528,-97.4792037,3687m/data=!3m1!1e3!4m6!3m5!1s0x8644a105a5fc86bf:0x90d9bb5758d70fc6!8m2!3d30.0015166!4d-97.4891907!16s%2Fg%2F11crrcvfbx?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "30.0015166, -97.4891907"
+      }
     },
     "waters-edge": {
       name: "7405 Waters Edge Court",
-      cardTitle: "7405 Waters Edge Court | The Colony",
+      cardTitle: "Waters Edge 75056",
       address: "7405 Waters Edge Ct, The Colony, TX 75056-3494",
       subtitle: "The Colony, Texas · Request current property information",
       type: "Sale listing",
@@ -156,11 +176,21 @@
       ],
       photos: [],
       photoNote: "Open the original listing for available property images.",
-      source: "https://www.crexi.com/properties/2701721/texas-7405-waters-edge-ct-the-colony-tx-75056-3494"
+      listingLinks: [],
+      marketingDocuments: [{
+        href: "pdfs/Waters-Edge-The-Colony-Marketing.pdf",
+        title: "Marketing brochure",
+        description: "Villas at Waters Edge, The Colony, Texas property PDF"
+      }],
+      source: "https://www.crexi.com/properties/2701721/texas-7405-waters-edge-ct-the-colony-tx-75056-3494",
+      map: {
+        url: "https://www.google.com/maps/place/7405+Water's+Edge+Ct,+The+Colony,+TX+75056,+USA/@33.1037688,-96.9018004,137m/data=!3m1!1e3!4m6!3m5!1s0x864c3a8d07b54865:0x653e19d2e0d8d2f1!8m2!3d33.1037322!4d-96.901788!16s%2Fg%2F11fd7kzslj?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "33.1037322, -96.901788"
+      }
     },
     spicewood: {
       name: "Reimers-Peacock Road",
-      cardTitle: "Reimers-Peacock Road | 15± Acres",
+      cardTitle: "Riemers Peacock Rd, TX 78669",
       address: "Highway 71 & Reimers-Peacock Road, Spicewood, TX 78669",
       subtitle: "Highway 71 commercial corner · Preliminary concept potential",
       type: "Land",
@@ -196,11 +226,16 @@
         alt: "Commercial land at Reimers-Peacock Road in Spicewood, Texas"
       }],
       photoNote: "Image from the Crexi property listing.",
-      source: "https://www.crexi.com/properties/2443403/texas-hwy-71-reimers-peacock-rd-spicewood-tx-78669"
+      listingLinks: [],
+      source: "https://www.crexi.com/properties/2443403/texas-hwy-71-reimers-peacock-rd-spicewood-tx-78669",
+      map: {
+        url: "https://www.google.com/maps/place/30%C2%B021'02.5%22N+98%C2%B003'50.9%22W/@30.3506984,-98.0654734,979m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d30.350696!4d-98.064137?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "30.350696, -98.064137"
+      }
     },
     "liberty-hill": {
       name: "4150 N Highway 183",
-      cardTitle: "4150 N Highway 183 | 35± Acres",
+      cardTitle: "Liberty Hill TX 78642",
       address: "4150 N Hwy 183, Liberty Hill, TX 78642",
       subtitle: "US Highway 183 frontage · Commercial and industrial potential",
       type: "Land",
@@ -246,11 +281,21 @@
         }
       ],
       photoNote: "Images from the Crexi property listing.",
-      source: "https://www.crexi.com/properties/1993996/texas-4150-n-hwy-183-liberty-hill-tx-78642"
+      listingLinks: [],
+      brochure: {
+        href: "pdfs/4150-N-Hwy-183-Liberty-Hill-TX-78642.pdf",
+        title: "Marketing brochure",
+        description: "4150 N Highway 183 Liberty Hill property brochure (PDF)"
+      },
+      source: "https://www.crexi.com/properties/1993996/texas-4150-n-hwy-183-liberty-hill-tx-78642",
+      map: {
+        url: "https://www.google.com/maps/place/4150+N+US+Hwy+183,+Liberty+Hill,+TX+78642,+USA/@30.7130032,-97.8742552,820m/data=!3m1!1e3!4m6!3m5!1s0x865ad6836f626a71:0xab3ad8f21efc37a9!8m2!3d30.7125496!4d-97.873926!16s%2Fg%2F11ty67b3x5?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "30.7125496, -97.873926"
+      }
     },
     sealy: {
       name: "0000 Sens Road",
-      cardTitle: "0000 Sens Road | 200+ Acres",
+      cardTitle: "Sens Rd, Sealy TX 77474",
       address: "0000 Sens Road, Sealy, TX 77474",
       subtitle: "Sens Road & Frazer Lane · Development potential",
       type: "Land",
@@ -283,12 +328,17 @@
         alt: "Property image for the Sens Road land listing in Sealy, Texas"
       }],
       photoNote: "LAND-STAR property image.",
+      listingLinks: [],
       brochure: {
         href: "pdfs/sealy brochure.pdf",
         title: "Marketing brochure",
         description: "Sens Road Sealy property brochure (PDF)"
       },
-      source: "https://www.crexi.com/properties/2016717/texas-0000-sens-road-sealy-tx-77474"
+      source: "https://www.crexi.com/properties/2016717/texas-0000-sens-road-sealy-tx-77474",
+      map: {
+        url: "https://www.google.com/maps/place/29%C2%B049'24.2%22N+96%C2%B010'58.5%22W/@29.8233892,-96.1835507,246m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d29.823388!4d-96.182907?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "29.823388, -96.182907"
+      }
     },
     bartlett: {
       name: "Harold Clark Road",
@@ -326,16 +376,21 @@
         alt: "Property image for the Harold Clark Road listing in Bartlett, Texas"
       }],
       photoNote: "LAND-STAR property image.",
+      listingLinks: [],
       brochure: {
         href: "pdfs/bartlett brochure.pdf",
         title: "Marketing brochure",
         description: "Harold Clark Road Bartlett property brochure (PDF)"
       },
-      source: "https://www.crexi.com/properties/1986474/texas-harold-clark-rd-bartlett-tx-76511"
+      source: "https://www.crexi.com/properties/1986474/texas-harold-clark-rd-bartlett-tx-76511",
+      map: {
+        url: "https://www.google.com/maps/place/30%C2%B048'26.5%22N+97%C2%B026'36.5%22W/@30.8073546,-97.4460399,974m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d30.80735!4d-97.443465?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "30.80735, -97.443465"
+      }
     },
     terrell: {
       name: "8461 FM 2578",
-      cardTitle: "8461 FM 2578 | 171.41± Acres",
+      cardTitle: "Terrell 75160 | 171.41Ac",
       address: "8461 FM 2578, Terrell, TX 75160",
       subtitle: "FM 2578 frontage · Event and residential concepts",
       type: "Land",
@@ -369,12 +424,17 @@
         alt: "Aerial property image for 8461 FM 2578 in Terrell, Texas"
       }],
       photoNote: "LAND-STAR property image.",
+      listingLinks: [],
       brochure: {
         href: "pdfs/8461-FM-2578-Terrell-TX-75160.pdf",
         title: "Marketing brochure",
         description: "8461 FM 2578 Terrell property PDF"
       },
-      source: "https://www.crexi.com/properties/2012624/texas-8461-fm-2578-terrell-texas-75160"
+      source: "https://www.crexi.com/properties/2012624/texas-8461-fm-2578-terrell-texas-75160",
+      map: {
+        url: "https://www.google.com/maps/place/8461+FM2578,+Terrell,+TX+75160,+USA/@32.6786767,-96.3283664,1136m/data=!3m1!1e3!4m6!3m5!1s0x86494c2583805cc3:0x3fd4a6e1925c4f0b!8m2!3d32.6793086!4d-96.327573!16s%2Fg%2F11dzn83szb?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+        coordinates: "32.6793086, -96.327573"
+      }
     }
   };
 
@@ -404,14 +464,6 @@
       '</a>';
   }
 
-  function requestLink(propertyName, documentName) {
-    return '<a href="' + escapeHtml(requestUrl(propertyName, documentName)) + '">' +
-      '<span class="document-icon" aria-hidden="true">DOC</span>' +
-      '<span><strong>' + escapeHtml(documentName) + '</strong><small>Request available materials from LAND-STAR</small></span>' +
-      '<span class="document-action">Request <span aria-hidden="true">&rarr;</span></span>' +
-      '</a>';
-  }
-
   var propertyId = new URLSearchParams(window.location.search).get("property");
   var property = properties[propertyId];
 
@@ -423,8 +475,9 @@
 
   document.title = property.name + " | LAND-STAR";
   var propertyHero = document.getElementById("property-hero");
+  propertyHero.style.backgroundImage = 'url("Images/bg_1.jpg")';
   if (property.photos.length) {
-    propertyHero.style.backgroundImage = 'url("' + property.photos[0].src + '")';
+    propertyHero.classList.remove("property-detail-hero--no-photo");
   } else {
     propertyHero.classList.add("property-detail-hero--no-photo");
   }
@@ -435,6 +488,11 @@
   document.getElementById("property-subtitle").textContent = property.subtitle;
   document.getElementById("property-contact").href = requestUrl(property.name, "property information");
   document.getElementById("property-request").href = requestUrl(property.name, "property information");
+  document.getElementById("property-map-link").href = property.map.url;
+  document.getElementById("property-map-frame").src = "https://www.google.com/maps?q=" +
+    encodeURIComponent(property.map.coordinates) + "&z=15&output=embed";
+  document.getElementById("property-map-frame").title = "Map showing " + property.address;
+  document.getElementById("property-map-coordinates").textContent = property.map.coordinates;
   document.getElementById("overview-heading").textContent = property.overview;
   document.getElementById("property-description").innerHTML = property.description.map(function (paragraph) {
     return "<p>" + escapeHtml(paragraph) + "</p>";
@@ -454,15 +512,23 @@
 
   var gallery = document.getElementById("property-gallery");
   if (property.photos.length) {
-    if (property.photos.length > 1) {
-      gallery.classList.add("property-photo-grid");
-    }
-    gallery.innerHTML = property.photos.map(function (photo, index) {
-      return '<a href="' + escapeHtml(photo.src) + '" target="_blank" rel="noopener noreferrer" aria-label="Open property image ' + (index + 1) + '">' +
-        '<img src="' + escapeHtml(photo.src) + '" alt="' + escapeHtml(photo.alt) + '">' +
-        '<span class="property-photo-count">Property image ' + (index + 1) + '</span>' +
-        '</a>';
-    }).join("") + "<figcaption>" + escapeHtml(property.photoNote) + "</figcaption>";
+    gallery.innerHTML =
+      '<button class="property-gallery-main" type="button" aria-label="View the property photo">' +
+        '<img src="' + escapeHtml(property.photos[0].src) + '" alt="' + escapeHtml(property.photos[0].alt) + '">' +
+        '<span class="property-photo-count" aria-live="polite">1 / ' + property.photos.length + '</span>' +
+      '</button>' +
+      '<div class="property-gallery-navigation">' +
+        '<button class="property-gallery-arrow property-gallery-previous" type="button" aria-label="Previous photo"></button>' +
+        '<div class="property-gallery-thumbnails" aria-label="Choose a property photo">' +
+          property.photos.map(function (photo, index) {
+            return '<button class="property-gallery-thumbnail" type="button" data-image="' + escapeHtml(photo.src) + '" data-alt="' + escapeHtml(photo.alt) + '" aria-label="Show photo ' + (index + 1) + '">' +
+              '<img src="' + escapeHtml(photo.src) + '" alt="">' +
+            '</button>';
+          }).join("") +
+        '</div>' +
+        '<button class="property-gallery-arrow property-gallery-next" type="button" aria-label="Next photo"></button>' +
+      '</div>' +
+      '<figcaption>' + escapeHtml(property.photoNote) + '</figcaption>';
   } else {
     gallery.innerHTML = '<div class="property-image-placeholder"><span>Property images</span><p>View available images on the original listing.</p><a href="' + escapeHtml(property.source) + '" target="_blank" rel="noopener noreferrer">Open Crexi listing <span aria-hidden="true">&rarr;</span></a></div>';
   }
@@ -471,10 +537,17 @@
   if (property.brochure) {
     documents.push(documentLink(property.brochure.href, property.brochure.title, property.brochure.description, "View PDF"));
   }
-  documents.push(requestLink(property.name, "Property survey"));
-  documents.push(requestLink(property.name, "Concept plan"));
-  documents.push(requestLink(property.name, "Other property documents"));
-  documents.push(documentLink(property.source, "Original Crexi listing", "View the source listing and any additional published information", "Open listing", "LINK"));
+  (property.marketingDocuments || []).forEach(function (document) {
+    documents.push(documentLink(document.href, document.title, document.description, "View PDF"));
+  });
   document.getElementById("property-document-list").innerHTML = documents.join("");
+  var listingLinks = [{
+    href: property.source,
+    title: "Crexi",
+    ariaLabel: "View " + property.address + " on Crexi"
+  }].concat(property.listingLinks || []);
+  document.getElementById("property-listing-buttons").innerHTML = listingLinks.map(function (listing) {
+    return '<a class="btn property-contact-button" href="' + escapeHtml(listing.href) + '" target="_blank" rel="noopener noreferrer" aria-label="' + escapeHtml(listing.ariaLabel) + '">View on ' + escapeHtml(listing.title) + ' <span aria-hidden="true">&nearr;</span></a>';
+  }).join("");
   document.getElementById("property-details").hidden = false;
 }());

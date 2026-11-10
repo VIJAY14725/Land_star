@@ -21,7 +21,6 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-10 ftco-animate text-center">
-            <p class="property-hero-eyebrow">LAND FOR SALE · TEXAS</p>
             <h1 class="mb-2 bread" id="property-title">Property details</h1>
             <p class="property-hero-address" id="property-address"></p>
           </div>
@@ -47,7 +46,6 @@
           <div id="property-details" hidden>
             <div class="property-detail-heading">
               <div>
-                <p class="property-detail-eyebrow">LAND-STAR LISTING</p>
                 <h2 id="property-heading"></h2>
                 <p id="property-subtitle"></p>
               </div>
@@ -56,7 +54,7 @@
 
             <div class="row property-detail-layout">
               <div class="col-lg-8">
-                <figure class="property-gallery" id="property-gallery"></figure>
+                <figure class="property-gallery property-image-viewer" id="property-gallery" aria-label="Property photo gallery"></figure>
 
                 <section class="property-content-card" aria-labelledby="overview-heading">
                   <p class="property-section-label">PROPERTY OVERVIEW</p>
@@ -65,13 +63,6 @@
                   <div id="property-description"></div>
                   <h4 class="property-highlights-title">Property highlights</h4>
                   <ul class="property-overview-highlights" id="property-highlights"></ul>
-                </section>
-
-                <section class="property-content-card property-documents" aria-labelledby="documents-heading">
-                  <p class="property-section-label">PROPERTY MATERIALS</p>
-                  <h3 id="documents-heading">Marketing material &amp; property documents</h3>
-                  <p id="property-documents-intro"></p>
-                  <div class="property-document-list" id="property-document-list"></div>
                 </section>
               </div>
 
@@ -85,20 +76,65 @@
                   <p class="property-section-label">DUE DILIGENCE</p>
                   <ul id="property-due-diligence"></ul>
                 </section>
+
+                <section class="property-content-card property-documents" aria-labelledby="documents-heading">
+                  <p class="property-section-label">PROPERTY MATERIALS</p>
+                  <h3 id="documents-heading">Marketing material &amp; property documents</h3>
+                  <p id="property-documents-intro"></p>
+                  <div class="property-document-list" id="property-document-list"></div>
+                </section>
+
+                <div class="property-listing-links">
+                  <p>Properties are also listed on:</p>
+                  <div class="property-listing-buttons" id="property-listing-buttons" aria-label="Other property listings"></div>
+                </div>
               </aside>
             </div>
 
             <div class="property-disclaimer">
               <p>Property details and third-party listing materials are provided for general information and should be independently verified. Confirm current acreage, access, title, utilities, land-use requirements, environmental conditions and all approvals with qualified professionals and relevant agencies.</p>
             </div>
+
+            <section class="property-map-section" aria-labelledby="property-map-heading">
+              <div class="property-map-heading">
+                <div>
+                  <p class="property-section-label">PROPERTY LOCATION</p>
+                  <h3 id="property-map-heading">Find the property</h3>
+                </div>
+                <a id="property-map-link" href="#" target="_blank" rel="noopener noreferrer">Open in Google Maps <span aria-hidden="true">&rarr;</span></a>
+              </div>
+              <iframe
+                class="property-map-frame"
+                id="property-map-frame"
+                title="Map showing the property location"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen>
+              </iframe>
+              <p class="property-map-coordinates" id="property-map-coordinates"></p>
+            </section>
           </div>
         </div>
       </section>
     </main>
 
     <div data-site-footer></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
     <script src="js/site-header.js"></script>
     <script src="js/site-footer.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/property-listings.js"></script>
+    <script src="js/property-gallery.js"></script>
   </body>
 </html>

@@ -6,6 +6,10 @@
     }
 
     var mainButton = gallery.querySelector('.property-gallery-main');
+    if (!mainButton) {
+      return;
+    }
+
     var mainImage = mainButton.querySelector('img');
     var counter = mainButton.querySelector('.property-photo-count');
     var thumbnails = Array.prototype.slice.call(gallery.querySelectorAll('.property-gallery-thumbnail'));
