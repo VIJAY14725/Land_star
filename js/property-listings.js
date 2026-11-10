@@ -174,8 +174,33 @@
         "Verify access, utilities, applicable land-use requirements and development approvals.",
         "Review drainage, floodplain, easements and environmental conditions."
       ],
-      photos: [],
-      photoNote: "Open the original listing for available property images.",
+      photos: [
+        {
+          src: "Images/waters-edge-75056-01.jpg",
+          alt: "7405 Waters Edge Court property and surrounding neighborhood in The Colony, Texas"
+        },
+        {
+          src: "Images/waters-edge-75056-02.jpg",
+          alt: "Aerial view of the Waters Edge property near the lake in The Colony, Texas"
+        },
+        {
+          src: "Images/waters-edge-75056-03.jpg",
+          alt: "Aerial view across the Waters Edge property toward the lake"
+        },
+        {
+          src: "Images/waters-edge-75056-04.png",
+          alt: "Ground-level view of the Waters Edge property in The Colony, Texas"
+        },
+        {
+          src: "Images/waters-edge-75056-05.jpg",
+          alt: "Street-level view of the Waters Edge property in The Colony, Texas"
+        },
+        {
+          src: "Images/waters-edge-75056-06.jpg",
+          alt: "Overhead aerial view of the Waters Edge property and surrounding lots"
+        }
+      ],
+      photoNote: "Property photos provided by LAND-STAR.",
       listingLinks: [],
       marketingDocuments: [{
         href: "pdfs/Waters-Edge-The-Colony-Marketing.pdf",
