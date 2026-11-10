@@ -18,12 +18,15 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">LAND-STAR</h2>
+              <a class="ftco-footer-logo" href="index.html" aria-label="Land-Star home">
+                <img src="Images/logo.png" alt="Land-Star">
+              </a>
               <p>At Land Star Real Estate, we understand that each client is unique, with specific goals and preferences.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://linkedin.com/company/land-star1/" target="_blank" rel="noopener noreferrer" aria-label="Land-Star on LinkedIn"><svg class="ui-icon social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 9v10M5 5v.1M10 19v-6a4 4 0 0 1 8 0v6M10 10v9"/></svg></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/TexasLands" target="_blank" rel="noopener noreferrer" aria-label="Land-Star on Facebook"><svg class="ui-icon social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 21v-8h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5c-.8-.1-1.8-.2-3-.2-3 0-5 1.8-5 5V9H7v4h3v8z"/></svg></a></li>
-                <li class="ftco-animate"><a href="#" aria-label="Instagram"><svg class="ui-icon social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/TexasLands/" target="_blank" rel="noopener noreferrer" aria-label="Land-Star on Facebook"><svg class="ui-icon social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 21v-8h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5c-.8-.1-1.8-.2-3-.2-3 0-5 1.8-5 5V9H7v4h3v8z"/></svg></a></li>
+                <li class="ftco-animate"><a href="https://www.linkedin.com/company/land-star1/posts/?feedView=all" target="_blank" rel="noopener noreferrer" aria-label="Land-Star on LinkedIn"><svg class="ui-icon social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 9v10M5 5v.1M10 19v-6a4 4 0 0 1 8 0v6M10 10v9"/></svg></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/land_star_realestate_llc/" target="_blank" rel="noopener noreferrer" aria-label="Land-Star on Instagram"><svg class="ui-icon social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a></li>
+                <li class="ftco-animate"><a href="https://www.youtube.com/@LAND-STAR_REAL_ESTATE_LLC" target="_blank" rel="noopener noreferrer" aria-label="Land-Star on YouTube"><svg class="ui-icon social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 12s0-3.5-.5-5.2c-.3-1-1.1-1.8-2.1-2.1C17.7 4.2 12 4.2 12 4.2s-5.7 0-7.4.5c-1 .3-1.8 1.1-2.1 2.1C2 8.5 2 12 2 12s0 3.5.5 5.2c.3 1 1.1 1.8 2.1 2.1 1.7.5 7.4.5 7.4.5s5.7 0 7.4-.5c1-.3 1.8-1.1 2.1-2.1C22 15.5 22 12 22 12Z"/><path d="m10 15 5-3-5-3z"/></svg></a></li>
               </ul>
             </div>
           </div>
