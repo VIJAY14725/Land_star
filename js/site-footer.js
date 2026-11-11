@@ -19,7 +19,7 @@
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <a class="ftco-footer-logo" href="index.html" aria-label="Land-Star home">
-                <img src="Images/logo.png" alt="Land-Star">
+                <img src="Images/logo-footer.png" alt="Land-Star">
               </a>
               <p>At Land Star Real Estate, we understand that each client is unique, with specific goals and preferences.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">

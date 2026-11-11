@@ -25,25 +25,37 @@
   <body class="goto-here" id="sale-page">
     <div data-site-header></div>
 
-    <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
+    <div class="hero-wrap hero-bread" style="background-image: url('Images/1401-county-road-440-01.jpg');">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-0 bread">Sale</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html"></a></span> <span>Properties</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Properties for sale</span></p>
           </div>
         </div>
       </div>
     </div>
 
     <section class="ftco-section ftco-degree-bg sale-section">
-      <div class="container">
+      <div class="container property-layout-grid" data-property-layout="list">
 
         <header class="sale-intro">
           <p class="sale-eyebrow">Land investment opportunities</p>
           <h2>Find your next opportunity</h2>
           <p>Explore land for sale across Texas, from development-ready tracts to properties with long-term potential.</p>
         </header>
+
+        <div class="property-listing-controls">
+          <nav class="property-category-filter" aria-label="Filter property category">
+            <a href="sale.html" class="is-active" aria-current="page">Sale <span>(Active)</span></a>
+            <a href="lease.html">Lease</a>
+            <a href="close.html">Closed</a>
+          </nav>
+          <div class="property-view-controls" role="group" aria-label="Property layout">
+            <button type="button" data-property-layout-choice="grid-3" aria-label="Show 3-column grid" title="3 columns" aria-pressed="false"><svg class="ui-icon property-view-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 4.5h17v15h-17zM9.17 4.5v15M14.83 4.5v15M3.5 12h17"/></svg></button>
+            <button type="button" data-property-layout-choice="list" class="is-active" aria-label="Show list view" title="List view" aria-pressed="true"><svg class="ui-icon property-view-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg></button>
+          </div>
+        </div>
 
         <div class="col-md-12 d-flex ftco-animate">
           <div class="blog-entry align-self-stretch d-md-flex">
@@ -138,7 +150,7 @@
 
 		          <div class="col-md-12 d-flex ftco-animate">
 		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="property-listing.html?property=sealy" class="block-20" style="background-image: url('images/sealy image.jpg');">
+		              <a href="property-listing.html?property=sealy" class="block-20" style="background-image: url('Images/sealy image.jpg');" aria-label="View Sens Road Sealy property">
 		              </a>
 		              <div class="text d-block pl-md-4">
                 <span class="property-status">LAND FOR SALE</span>
@@ -160,7 +172,7 @@
 
 		          <div class="col-md-12 d-flex ftco-animate">
 		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="property-listing.html?property=bartlett" class="block-20" style="background-image: url('images/bartlett image.jpg');">
+		              <a href="property-listing.html?property=bartlett" class="block-20" style="background-image: url('Images/bartlett image.jpg');" aria-label="View Harold Clark Road Bartlett property">
 		              </a>
 		              <div class="text d-block pl-md-4">
                 <span class="property-status">LAND FOR SALE</span>
@@ -181,7 +193,7 @@ Harold Clark RD, Bartlett, TX 76511</a></h3>
 
                   <div class="col-md-12 d-flex ftco-animate">
 		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="property-listing.html?property=terrell" class="block-20" style="background-image: url('Images/FM%202578%20Terrell-171ac.jpg');">
+		              <a href="property-listing.html?property=terrell" class="block-20" style="background-image: url('Images/FM%202578%20Terrell-171ac.jpg');" aria-label="View FM 2578 Terrell property">
 		              </a>
 		              <div class="text d-block pl-md-4">
                 <span class="property-status">LAND FOR SALE</span>
@@ -203,7 +215,7 @@ Harold Clark RD, Bartlett, TX 76511</a></h3>
 
                   <div class="col-md-12 d-flex ftco-animate">
 		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="property-listing.html?property=cedar-creek" class="block-20" style="background-image: url('images/Cedar-Creek-picture.JPG');">
+		              <a href="property-listing.html?property=cedar-creek" class="block-20" style="background-image: url('Images/Cedar-Creek-picture.JPG');" aria-label="View High Grove Road Cedar Creek property">
 		              </a>
 		              <div class="text d-block pl-md-4">
                 <span class="property-status">LAND FOR SALE</span>
@@ -294,6 +306,7 @@ Harold Clark RD, Bartlett, TX 76511</a></h3>
       });
     });
   </script>
+  <script src="js/property-view-controls.js"></script>
 
   </body>
 </html>

@@ -6,7 +6,7 @@
   }
 
   var currentPage = window.location.pathname.split("/").pop().toLowerCase() || "index.html";
-  var propertiesPages = ["sale.html", "sale-2025-09-05.html", "lease.html", "close.html", "property-1401-county-road-440.html"];
+  var propertiesPages = ["sale.html", "sale-2025-09-05.html", "lease.html", "close.html", "property-listing.html", "property-1401-county-road-440.html", "property-fm-2268-holland.html"];
   var activePage = currentPage === "aboutus-25.html" ? "about.html" : currentPage;
   var homeActive = activePage === "index.html";
   var aboutActive = activePage === "about.html";
@@ -33,8 +33,8 @@
       <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html" aria-label="Land-Star home">
-            <img src="Images/logo.png" alt="">
-            <span>Land-Star<small>Land &amp; real estate</small></span>
+            <img src="Images/logo-header.png" alt="">
+            <span>Land-Star<small>REAL ESTATE LLC</small></span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <svg class="ui-icon menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"/></svg> Menu
@@ -43,14 +43,7 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item${homeActive ? " active" : ""}"><a href="index.html" class="nav-link"${homeActive ? ' aria-current="page"' : ""}>Home</a></li>
               <li class="nav-item${aboutActive ? " active" : ""}"><a href="about.html" class="nav-link"${aboutActive ? ' aria-current="page"' : ""}>About</a></li>
-              <li class="nav-item dropdown${propertiesActive ? " active" : ""}">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"${propertiesActive ? ' aria-current="page"' : ""}>Properties</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="sale.html">Sale</a>
-                  <a class="dropdown-item" href="lease.html">Lease</a>
-                  <a class="dropdown-item" href="close.html">Closed Properties</a>
-                </div>
-              </li>
+              <li class="nav-item${propertiesActive ? " active" : ""}"><a href="sale.html" class="nav-link"${propertiesActive ? ' aria-current="page"' : ""}>Properties</a></li>
               <li class="nav-item${servicesActive ? " active" : ""}"><a href="services.html" class="nav-link"${servicesActive ? ' aria-current="page"' : ""}>Our Services</a></li>
               <li class="nav-item${contactActive ? " active" : ""}"><a href="contact.html" class="nav-link"${contactActive ? ' aria-current="page"' : ""}>Contact</a></li>
             </ul>

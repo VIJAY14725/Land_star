@@ -29,12 +29,12 @@
   <body class="goto-here" id="closed-page">
     <div data-site-header></div>
 
-    <div class="hero-wrap hero-bread" style="background-image: url('Images/bg_1.jpg');">
+    <div class="hero-wrap hero-bread" style="background-image: url('Images/10.jpg');">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-0 bread">Closed</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html"></a></span> <span>Properties</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Closed properties</span></p>
           </div>
         </div>
       </div>
@@ -47,7 +47,18 @@
           <h2>Closed properties</h2>
           <p>A selection of properties we have helped clients bring from opportunity to closing.</p>
         </div>
-        <div class="closed-property-grid">
+        <div class="property-listing-controls">
+          <nav class="property-category-filter" aria-label="Filter property category">
+            <a href="sale.html">Sale <span>(Active)</span></a>
+            <a href="lease.html">Lease</a>
+            <a href="close.html" class="is-active" aria-current="page">Closed</a>
+          </nav>
+          <div class="property-view-controls" role="group" aria-label="Property layout">
+            <button type="button" data-property-layout-choice="grid-3" aria-label="Show 3-column grid" title="3 columns" aria-pressed="false"><svg class="ui-icon property-view-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 4.5h17v15h-17zM9.17 4.5v15M14.83 4.5v15M3.5 12h17"/></svg></button>
+            <button type="button" data-property-layout-choice="list" class="is-active" aria-label="Show list view" title="List view" aria-pressed="true"><svg class="ui-icon property-view-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg></button>
+          </div>
+        </div>
+        <div class="closed-property-grid property-layout-grid" data-property-layout="list">
           <div class="col-md-12 d-flex ftco-animate closed-property">
             <div class="blog-entry align-self-stretch d-md-flex">
               <a href="Images/10.jpg" target="_blank" rel="noopener noreferrer" class="block-20" style="background-image: url('Images/10.jpg');" aria-label="View FM 3133 Anna Road property image"></a>
@@ -209,6 +220,7 @@ TBD Parker Hill Road, Palmer, Texas 75152</a></h3>
       });
     });
   </script>
+  <script src="js/property-view-controls.js"></script>
 
   </body>
 </html>

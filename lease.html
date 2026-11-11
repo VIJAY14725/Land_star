@@ -28,28 +28,40 @@
   <body class="goto-here">
     <div data-site-header></div>
 
-    <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
+    <div class="hero-wrap hero-bread" style="background-image: url('Images/32411 image.jpg');">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-0 bread">Lease</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html"></a></span> <span>Properties</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Spaces for lease</span></p>
           </div>
         </div>
       </div>
     </div>
 
     <section class="ftco-section ftco-degree-bg lease-section">
-      <div class="container">
+      <div class="container property-layout-grid" data-property-layout="list">
         <header class="lease-intro">
           <p class="lease-eyebrow">Commercial spaces for lease</p>
           <h2>Find a space to grow your business</h2>
           <p>Explore flexible retail, showroom, and commercial spaces in growing Texas communities.</p>
         </header>
 
+        <div class="property-listing-controls">
+          <nav class="property-category-filter" aria-label="Filter property category">
+            <a href="sale.html">Sale <span>(Active)</span></a>
+            <a href="lease.html" class="is-active" aria-current="page">Lease</a>
+            <a href="close.html">Closed</a>
+          </nav>
+          <div class="property-view-controls" role="group" aria-label="Property layout">
+            <button type="button" data-property-layout-choice="grid-3" aria-label="Show 3-column grid" title="3 columns" aria-pressed="false"><svg class="ui-icon property-view-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 4.5h17v15h-17zM9.17 4.5v15M14.83 4.5v15M3.5 12h17"/></svg></button>
+            <button type="button" data-property-layout-choice="list" class="is-active" aria-label="Show list view" title="List view" aria-pressed="true"><svg class="ui-icon property-view-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg></button>
+          </div>
+        </div>
+
         <article class="lease-property">
           <div class="blog-entry align-self-stretch">
-            <a href="images/l1.jpg" target="_blank" rel="noopener" class="block-20" style="background-image: url('images/l1.jpg');" aria-label="View Liberty Plaza property image"></a>
+            <a href="Images/l1.jpg" target="_blank" rel="noopener" class="block-20" style="background-image: url('Images/l1.jpg');" aria-label="View Liberty Plaza property image"></a>
             <div class="text">
               <h2>Liberty Plaza</h2>
               <h3 class="heading"><a href="#">12700 W State Highway 29, Liberty Hill, TX 78642</a></h3>
@@ -61,7 +73,7 @@
 
         <article class="lease-property">
           <div class="blog-entry align-self-stretch">
-            <a href="images/32411 image.jpg" target="_blank" rel="noopener" class="block-20" style="background-image: url('images/32411 image.jpg');" aria-label="View 32411 Tamina Road property image"></a>
+            <a href="Images/32411 image.jpg" target="_blank" rel="noopener" class="block-20" style="background-image: url('Images/32411 image.jpg');" aria-label="View 32411 Tamina Road property image"></a>
             <div class="text">
               <h2>32411 Tamina Road</h2>
               <h3 class="heading"><a href="#">32411 Tamina Road, Magnolia, TX 77354</a></h3>
@@ -73,7 +85,7 @@
 
         <article class="lease-property">
           <div class="blog-entry align-self-stretch">
-            <a href="images/32415 image.jpg" target="_blank" rel="noopener" class="block-20" style="background-image: url('images/32415 image.jpg');" aria-label="View 32415 Tamina Road 2,900 square foot space image"></a>
+            <a href="Images/32415 image.jpg" target="_blank" rel="noopener" class="block-20" style="background-image: url('Images/32415 image.jpg');" aria-label="View 32415 Tamina Road 2,900 square foot space image"></a>
             <div class="text">
               <h2>32415 Tamina Road | 2,900+ SF</h2>
               <h3 class="heading"><a href="#">32415 Tamina Road, Magnolia, TX 77354</a></h3>
@@ -85,7 +97,7 @@
 
         <article class="lease-property">
           <div class="blog-entry align-self-stretch">
-            <a href="images/32415 b image.jpg" target="_blank" rel="noopener" class="block-20" style="background-image: url('images/32415 b image.jpg');" aria-label="View 32415 Tamina Road 3,600 square foot space image"></a>
+            <a href="Images/32415 b image.jpg" target="_blank" rel="noopener" class="block-20" style="background-image: url('Images/32415 b image.jpg');" aria-label="View 32415 Tamina Road 3,600 square foot space image"></a>
             <div class="text">
               <h2>32415 Tamina Road | 3,600+ SF</h2>
               <h3 class="heading"><a href="#">32415 Tamina Road, Magnolia, TX 77354</a></h3>
@@ -151,6 +163,7 @@
       });
     });
   </script>
+  <script src="js/property-view-controls.js"></script>
 
   </body>
 </html>

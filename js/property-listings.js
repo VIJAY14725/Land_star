@@ -500,10 +500,11 @@
 
   document.title = property.name + " | LAND-STAR";
   var propertyHero = document.getElementById("property-hero");
-  propertyHero.style.backgroundImage = 'url("Images/bg_1.jpg")';
   if (property.photos.length) {
+    propertyHero.style.backgroundImage = 'url("' + property.photos[0].src + '")';
     propertyHero.classList.remove("property-detail-hero--no-photo");
   } else {
+    propertyHero.style.backgroundImage = "";
     propertyHero.classList.add("property-detail-hero--no-photo");
   }
   document.getElementById("property-title").textContent = property.name;
